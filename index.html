@@ -26,27 +26,46 @@
                 </h1>
                 <h1>You <em>know</em> you want to.</h1>
             </div>
-            <div class="form">
+
                 <form action="API" method="POST">
-                    <h1>Let's Do This!</h1>
-                    <label for="firstName">First Name: </label>
-                    <input type="text" placeholder="First Name" id="firstName" name="firstName">                    <label for="lastName">Last Name: </label>
-                    <input type="text" placeholder="Last Name" id="lastName" name="lastName">
-                    <div></div>
-                    <label for="email">Email: </label>
-                    <input type="email" placeholder="email@xxx.com" id="email" name="email">                    <label for="phoneNumber">Phone Number: </label>
-                    <input type="number" placeholder="(---) --- ----" id="phoneNumber" name="phoneNumber">                    
-                    <div></div>
-                    <label for="password">Password: </label>
-                    <input type="password" placeholder="xxxxx" id="password" name="password">                    <label for="confirmPW">Confirm Password: </label>
-                    <input type="password" placeholder="xxxxx" id="confirmPW" name="confirmPW">
+                    <fieldset class="inputs">
+                        <h1>Let's Do This!</h1>
+                        <div></div>
+                        <div class="inputs">
+                            <label for="firstName">First Name: </label>
+                            <input type="text" placeholder="First Name" id="firstName" name="firstName">
+                        </div>
+                        <div class="inputs">
+                            <label for="lastName">Last Name: </label>
+                            <input type="text" placeholder="Last Name" id="lastName" name="lastName">
+                        </div>
+                        <div class="inputs">
+                            <label for="email">Email: </label>
+                            <input type="email" placeholder="email@xxx.com" id="email" name="email">
+                        </div>                  
+                        <div class="inputs">
+                            <label for="phoneNumber">Phone Number: </label>
+                            <input type="number" placeholder="(---) --- ----" id="phoneNumber" name="phoneNumber">
+                        </div>
+                        <div class="inputs">
+                            <label for="password">Password: </label>
+                            <input type="password" placeholder="xxxxx" id="password" name="password">
+                        </div>                  
+                        <div class="inputs">
+                            <label for="confirmPW">Confirm Password: </label>
+                            <input type="password" placeholder="xxxxx" id="confirmPW" name="confirmPW">
+                        </div>
+                    </fieldset>
+                    <div>&nbsp;</div>
+                    <div class="buttons">
+                        <button type="submit">CONFIRM</button>
+                        <button type="reset">RESET FORM</button>
+                    </div>
                 </form>
-                <div class="buttons">
-                    <button type="submit">CONFIRM</button>
-                    <button type="reset">RESET FORM</button>
-                </div>
-            </div class="logIn">
-            <h3>Already have an account? <a href="">Log In</a></h3>
+
+            <div class="logIn">
+                <h3>Already have an account? <a href="">Log In</a></h3>
+            </div>
             <footer>
                 <a href="github.com/BenjaminJMcD"><img src="./images/github-mark-white.png" alt="github logo">BenjaminJMcD</a>
             </footer>
