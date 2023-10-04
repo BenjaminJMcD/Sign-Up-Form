@@ -97,6 +97,7 @@ input:hover {
     border-bottom:5px inset #956F59;
 }
 
+
 button {
     margin-left: 15px;
     background-color: rgb(87, 33, 8);
@@ -135,11 +136,11 @@ button:active {
 
 footer {
     position: absolute;
+    display:flex;
     width: 100%;
     margin-top: 102%;
-    background-color: rgba(87, 33, 8, 0.7);
     font-size: 1.2em;
-    text-align: center;
+    justify-content: space-around;
     padding-bottom: 8px;
     padding-top: 8px;
 }
